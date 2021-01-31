@@ -200,6 +200,9 @@ top:290px;
 }
 
 @media only screen and (max-width: 576px) {
+  html{
+    height:2800px;
+  }
   #hello{
 font-size:50px !important;
 position:relative;
@@ -240,7 +243,7 @@ background-size:cover;
 }
 
 .indicator{
-  top:530px;
+  top:560px;
 }
 
 .academic-record-description{
@@ -252,11 +255,11 @@ background-size:cover;
 }
 
 .indicator_1{
-  top:300px;
+  top:330px;
 }
 
 .indicator_2{
-  top:335px;
+  top:365px;
 }
 
 .project-record-description{
@@ -379,11 +382,11 @@ background-size:cover;
   }
 
   .indicator_1{
-    top:300px;
+    top:290px;
   }
 
   .indicator_2{
-    top:315px;
+    top:305px;
   }
 
   .project-record-description{
