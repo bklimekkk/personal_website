@@ -76,7 +76,7 @@ padding:200px 0 300px 0;
 text-align:center;
 background-image:url("images/blue_sky.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   color:#3C3F7E;
 }
 
@@ -232,6 +232,11 @@ background-size:cover;
 #project{
   height:500px;
 
+}
+  
+  
+#contact{
+  background-size: 100% 100%;
 }
 
 .person{
