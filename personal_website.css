@@ -1,0 +1,393 @@
+html{
+  height:3000px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+   color:#3C3F7E;
+}
+
+a:hover{
+   color:#5560A9;
+}
+
+
+
+#title{
+  background-image:url("images/blue_sky.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#title_header{
+  text-align:center;
+padding:200px 0 300px 0;
+
+ color:#3C3F7E;
+}
+
+#hello{
+  font-family: 'Sacramento', cursive;
+  font-size:130px;
+}
+
+#front_end{
+  font-size:15px;
+}
+
+#academic{
+  height:550px;
+  text-align:center;
+  background-color:#ffe5b9;
+}
+
+#personality{
+  padding:150px 0 200px 0;
+  text-align:center;
+  background-color:#eff8ff;
+}
+
+#cooperative, #cooperative-header, #cooperative-paragraph{
+  position:relative;
+  top:20px;
+}
+
+#skills{
+  height:460px;
+  text-align:center;
+  color:#eff8ff;
+  background-color:#c9cbff;
+}
+
+
+#project{
+  height:450px;
+    text-align:center;
+    background-color:#a6a9b6;
+}
+
+#project-header{
+  padding:50px 0 0 0;
+  color:#ffe5b9;
+}
+
+#contact{
+text-align:center;
+background-image:url("images/blue_sky.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:#3C3F7E;
+}
+
+#contact-me{
+  padding:50px 0 0 0;
+  color:#3C3F7E;
+}
+
+#contact-details{
+  color:#3C3F7E;
+padding-bottom:50px;
+}
+
+.academic-record{
+  padding:150px 0 200px 0;
+  text-align:center;
+}
+
+.academic-record-description{
+  padding:25px 0 0 0;
+  display:block;
+  margin: 0 auto;
+  color:#A6A9B6;
+  width:40%;
+}
+
+.personality-row{
+  width:80%;
+  margin:0 auto;
+}
+
+.personality-paragraph{
+width:70%;
+margin:0 auto;
+}
+
+.skills_header{
+  padding:50px 0 20px 0;
+  color:#eff8ff;
+}
+
+.skills-description{
+  color:#3C3F7E;
+  width:50%;
+  margin: 0 auto;
+  padding:20px 0 0 0;
+}
+
+.smart{
+  position:relative;
+  bottom:5px;
+}
+.project-record{
+padding:50px 0 50px 0;
+}
+
+.project-record-description{
+  color:#ffe5b9;
+  padding:20px 0 30px 0;
+  width:30%;
+  margin:0 auto;
+}
+
+.indicator{
+  position:absolute;
+top:450px;
+}
+
+.indicator_1{
+  position:absolute;
+top:270px;
+}
+
+.indicator_2{
+position:absolute;
+top:290px;
+}
+
+.calculator, .apple{
+  transition:transform 0.1s;
+}
+
+.calculator:hover, .apple:hover{
+  transform:scale(1.1);
+}
+
+.control-button{
+  position:absolute;
+  top:280px;
+}
+
+.control-button-1{
+  position:absolute;
+  top:110px;
+}
+
+.control-button-2{
+  position:absolute;
+  top:130px;
+}
+
+.navbar{
+  z-index:1;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  width: 100%;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler{
+  color:#3C3F7E;
+}
+
+.navbar-toggler:hover{
+  color:#5560A9;
+}
+
+@media only screen and (max-width: 576px) {
+  #hello{
+font-size:50px !important;
+position:relative;
+top:60px;
+  }
+  #front_end{
+    font-size:10px !important;
+    position:relative;
+    top:60px;
+  }
+
+  #title{
+background-size:cover;
+  }
+
+#academic{
+  height:650px;
+}
+
+#personality{
+    padding:70px 0 100px 0;
+}
+
+#skills{
+  padding:10px 0 20px 0;
+  height:530px;
+
+}
+
+#project{
+  height:500px;
+
+}
+
+.person{
+  margin-top:15%;
+  margin-bottom:15%;
+}
+
+.indicator{
+  top:530px;
+}
+
+.academic-record-description{
+  width:60%;
+}
+
+.skills-description{
+ width:80%;
+}
+
+.indicator_1{
+  top:300px;
+}
+
+.indicator_2{
+  top:335px;
+}
+
+.project-record-description{
+  width:50%;
+}
+
+}
+@media only screen and (min-width:576px) and (max-width: 768px) {
+  #hello{
+font-size:80px;
+position:relative;
+top:50px;
+  }
+  #front_end{
+    position:relative;
+    top:50px;
+  }
+  #title{
+background-size:cover;
+  }
+
+  #academic{
+    height:650px;
+  }
+
+  #personality{
+      padding:70px 0 100px 0;
+  }
+
+  #skills{
+    padding:10px 0 20px 0;
+    height:530px;
+
+  }
+
+  #project{
+    height:500px;
+
+  }
+
+  .person{
+    margin-top:15%;
+    margin-bottom:15%;
+  }
+
+  .indicator{
+    top:510px;
+  }
+
+  .academic-record-description{
+    width:60%;
+  }
+
+  .skills-description{
+   width:80%;
+  }
+
+  .indicator_1{
+    top:280px;
+  }
+
+  .indicator_2{
+    top:315px;
+  }
+
+  .project-record-description{
+    width:50%;
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #hello{
+font-size:100px !important;
+position:relative;
+top:50px;
+  }
+  #front_end{
+    position:relative;
+    top:50px;
+  }
+
+  #title{
+background-size:cover;
+  }
+
+  #academic{
+    height:650px;
+  }
+
+  #personality{
+      padding:70px 0 100px 0;
+  }
+
+  #skills{
+    padding:10px 0 20px 0;
+    height:530px;
+
+  }
+
+  #project{
+    height:500px;
+
+  }
+
+  .person{
+    margin-top:15%;
+    margin-bottom:15%;
+  }
+
+  .indicator{
+    top:510px;
+  }
+
+  .academic-record-description{
+    width:60%;
+  }
+
+  .skills-description{
+   width:80%;
+  }
+
+  .indicator_1{
+    top:300px;
+  }
+
+  .indicator_2{
+    top:315px;
+  }
+
+  .project-record-description{
+    width:50%;
+  }
+
+}
