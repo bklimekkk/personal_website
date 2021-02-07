@@ -1,2 +1,2 @@
-# bartosz_klimek
+# personal_website
 personal website
