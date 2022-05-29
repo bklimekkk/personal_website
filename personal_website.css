@@ -155,11 +155,11 @@ position:absolute;
 top:290px;
 }
 
-.calculator, .apple, .stock, .quiz, .dictionary, .play {
+.calculator, .apple, .stock, .quiz, .dictionary, .play, .pin {
   transition:transform 0.1s;
 }
 
-.calculator:hover, .apple:hover, .stock:hover, .quiz:hover, .dictionary:hover, .play:hover {
+.calculator:hover, .apple:hover, .stock:hover, .quiz:hover, .dictionary:hover, .play:hover, .pin:hover {
   transform:scale(1.1);
 }
 
