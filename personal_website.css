@@ -1,228 +1,407 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Bartek Klimek</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="personal_website.css">
-      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-</head>
-  <body>
+html{
+  height:0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
-<section id = "title">
-  <nav class="nav navbar navbar-expand-lg">
-      <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pageNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-      <div class="collapse navbar-collapse" id="pageNavbar">
-  <a class="nav-link"href="#academic">INTRODUCTION</a>
-  <a class="nav-link" href="#personality">PERSONALITY</a>
-  <a class="nav-link" href="#skills">SKILLS</a>
-  <a class="nav-link" href="#project">PROJECTS</a>
-    <a class="nav-link" href="#contact">CONTACT</a>
-  </div>
-</div>
-</nav>
-<div id="title_header">
-  <h1 id = "hello">Hello, I'm Bartek</h1>
-  <p id = "front_end">IOS DEVELOPER</p>
-</div>
+a{
+   color:#3C3F7E;
+}
 
-</section>
-
-<section id = "academic">
-  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators indicator">
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
- </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="academic-record">
-        <img src="images/academic.png" alt="" width="100px">
-        <p class = "academic-record-description">This year I will finish Computer Science and Artificial Intelligence course in Aberystwyth, United Kingdom. Even before I started my studies, I was very interested in mobile applications.</p>
-        </div>
-</div>
-      <div class="carousel-item">
-        <div class="academic-record">
-          <img src="images/mac.png" alt="" width = "100px">
-          <p class = "academic-record-description">I love to spend time developing new software. It gives me the opportunity to realise my creative ideas. The thing that I like the most in mobile development, is the fact that almost any idea can be turned into app.</p>
-        </div>
-</div>
-    </div>
-    <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
-      <span class="control-button carousel-control-prev-icon" aria-hidden="true"></span>
-
-    </a>
-    <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
-      <span class="control-button carousel-control-next-icon" aria-hidden="true"></span>
-</a>
-  </div>
-</section>
-
-<section id = "personality">
-  <div class="personality-row row">
-    <div class="person col-lg-4">
-      <img id = "cooperative" src="images/cooperative.png" alt="" width = "200px">
-      <h2 id = "cooperative-header">Cooperative</h2>
-      <p id = "cooperative-paragraph" class = "personality-paragraph">I work better in group of people who have the same goal as me.</p>
-    </div>
-    <div class="person col-lg-4">
-        <img src="images/books.png" alt="" width = "200px">
-        <h2>Hard-Working</h2>
-        <p class = "personality-paragraph">I believe that people can accomplish anything if they commit to it fully.</p>
-    </div>
-    <div class="person col-lg-4">
-        <img src="images/smart.png" alt="" width = "130px">
-        <h2 class = "smart">Creative</h2>
-        <p class = "smart personality-paragraph">I can quickly come up with solution that solves the problem - smaller or bigger.</p>
-    </div>
-  </div>
-</section>
-
-<section id = "skills">
-<h2 class = "skills_header">During my course I acquired lot of programming skills</h2>
-<div id="carousel_1" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators indicator_1">
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
- </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="skills-record">
-      <img class = "iOS" src="images/iOS.png" alt="" width="200px">
-      <p class = "iOS skills-description">iOS development is my primary interest. the fact that people can open greatest programs in the world by taking the phone out of their pocket feels very powerful to me. I always try to write application that is as simple as possible to use.</p>
-      </div>
-</div>
-    <div class="carousel-item">
-      <div class="skills-record">
-      <img class = "java" src="images/java.png" alt="" width="90px">
-      <p class = "java skills-description">As student I designed a lot of Java aplications. I became familiar with object oriented programming languages. As an example, I created application that was able decrypt numerous ciphers.  </p>
-      </div>
-</div>
-    <div class="carousel-item">
-      <div class="skills-record">
-        <img src="images/cplusplus.png" alt="" width = "120px">
-        <p class = "skills-description">During my course I also learned C and C++ languages. Assignments that I had to complete, made me think as a real programmer. The number of tasks to solve turned my brain into problem solving machine.</p>
-      </div>
-</div>
-<div class="carousel-item">
-  <div class="skills-record">
-    <img src="images/sql.png" alt="" width = "230px">
-    <p class = "skills-description">In the second year of my studies I came across databases and I really liked it. I can design a well-normalised database from which data can be easily extracted. </p>
-  </div>
-</div>
-  </div>
-  <a class="carousel-control-prev" href="#carousel_1" role="button" data-bs-slide="prev">
-    <span class="control-button-1 carousel-control-prev-icon" aria-hidden="true"></span>
-
-  </a>
-  <a class="carousel-control-next" href="#carousel_1" role="button" data-bs-slide="next">
-    <span class="control-button-1 carousel-control-next-icon" aria-hidden="true"></span>
-</a>
-</div>
-</section>
-
-<section id = "project">
-<h2 id = "project-header">I created several projects</h2>
-
-<div id="carousel_2" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators indicator_2">
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="project-record">
-        <a href="https://github.com/bklimekkk/Share-Your-Journey.git"><img class = "pin" src="images/pin.png" alt="" width = "100px"></a>
-        <p class = "project-record-description">Click icon to see a Share Your Journey iOS application. It allows users to share photos from a trip between each other.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="project-record">
-        <a href="https://github.com/bklimekkk/Something-To-Read.git"><img class = "reading" src="images/reading.png" alt="" width = "150px"></a>
-        <p class = "project-record-description">Click icon to see iOS application that allows users to search through different categories of current book bestsellers chosen by Newskweek.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="project-record">
-        <a href="https://github.com/bklimekkk/Something-To-Watch.git"><img class = "play" src="images/play.png" alt="" width = "100px"></a>
-        <p class = "project-record-description">Click icon to see a movies database iOS application. It allows users to search for a desired movie from particular genre.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="project-record">
-      <a href="https://github.com/bklimekkk/CheckOutThisStock.git"><img class = "stock" src="images/stock.png" alt="" width="120px"></a>
-      <p class = "project-record-description">Click stock icon to access my iOS stocks application. It allows users to view most popular stocks.</p>
-      </div>
-</div>
-<div class="carousel-item">
-  <div class="project-record">
-  <a href="https://github.com/bklimekkk/AndroidQuizApplication.git"><img class = "quiz" src="images/quiz.png" alt="" width="60px"></a>
-  <p class = "project-record-description">Click the icon to access my android quiz application. It allows teachers to create quizzes for students.</p>
-  </div>
-</div>
-<div class="carousel-item">
-  <div class="project-record">
-  <a href="https://github.com/bklimekkk/Dictionary.git"><img class = "dictionary" src="images/dictionary.png" alt="" width="120px"></a>
-  <p class = "project-record-description">Click dictionary icon to access my java dictionary application. It translates most popular words in six languages. </p>
-  </div>
-</div>
-    <div class="carousel-item">
-      <div class="project-record">
-      <a href="https://bklimekkk.github.io/calculator/"><img class = "calculator" src="images/calculator.png" alt="" width="100px"></a>
-      <p class = "project-record-description">Click calculator icon to see a simple calculator that I made. It allows to process calculations as quickly as it's possible.</p>
-      </div>
-</div>
-    <div class="carousel-item">
-      <div class="project-record">
-        <a href="https://bklimekkk.github.io/calories_calculator/"><img class = "apple" src="images/apple.png" alt="" width = "100px"></a>
-        <p class = "project-record-description">Click apple icon to see a diet calculator. It calculates total number of calories and tells user how many calories food item has.</p>
-      </div>
-</div>
-  </div>
-  <a class="carousel-control-prev" href="#carousel_2" role="button" data-bs-slide="prev">
-    <span class="control-button-2 carousel-control-prev-icon" aria-hidden="true"></span>
-
-  </a>
+a:hover{
+   color:#5560A9;
+}
 
 
-  <a class="carousel-control-next" href="#carousel_2" role="button" data-bs-slide="next">
-    <span class="control-button-2 carousel-control-next-icon" aria-hidden="true"></span>
-</a>
-</div>
-</section>
-<section id = "contact">
-  <h2 id = "contact-me">Contact me any time</h2>
-  <p id = "contact-details">klimekbartosz12@gmail.com<br>
-  +44 7825670275<br>
-  www.linkedin.com/in/bartoszklimek12<br>
-  https://github.com/bklimekkk<br>
-Pictures were created by Freepic</p>
-</section>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="personal_website.js" charset="utf-8"></script>
-  </body>
-</html>
+
+#title{
+  background-image:url("images/blue_sky.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#title_header{
+  text-align:center;
+padding:200px 0 300px 0;
+
+ color:#3C3F7E;
+}
+
+#hello{
+  font-family: 'Sacramento', cursive;
+  font-size:130px;
+}
+
+#front_end{
+  font-size:15px;
+}
+
+#academic{
+  height:550px;
+  text-align:center;
+  background-color:#ffe5b9;
+}
+
+#personality{
+  padding:150px 0 200px 0;
+  text-align:center;
+  background-color:#eff8ff;
+}
+
+#cooperative, #cooperative-header, #cooperative-paragraph{
+  position:relative;
+  top:20px;
+}
+
+#skills{
+  height:460px;
+  text-align:center;
+  color:#eff8ff;
+  background-color:#c9cbff;
+}
+
+
+#project{
+  height:450px;
+    text-align:center;
+    background-color:#a6a9b6;
+}
+
+#project-header{
+  padding:50px 0 0 0;
+  color:#ffe5b9;
+}
+
+#contact{
+text-align:center;
+background-image:url("images/blue_sky.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:#3C3F7E;
+}
+
+#contact-me{
+  padding:50px 0 0 0;
+  color:#3C3F7E;
+}
+
+#contact-details{
+  color:#3C3F7E;
+padding-bottom:50px;
+}
+
+.academic-record{
+  padding:150px 0 200px 0;
+  text-align:center;
+}
+
+.academic-record-description{
+  padding:25px 0 0 0;
+  display:block;
+  margin: 0 auto;
+  color:#A6A9B6;
+  width:40%;
+}
+
+.personality-row{
+  width:80%;
+  margin:0 auto;
+}
+
+.personality-paragraph{
+width:70%;
+margin:0 auto;
+}
+
+.skills_header{
+  padding:50px 0 20px 0;
+  color:#eff8ff;
+}
+
+.skills-description{
+  color:#3C3F7E;
+  width:50%;
+  margin: 0 auto;
+  padding:20px 0 0 0;
+}
+
+.smart{
+  position:relative;
+  bottom:5px;
+}
+.project-record{
+padding:50px 0 50px 0;
+}
+
+.project-record-description{
+  color:#ffe5b9;
+  padding:20px 0 30px 0;
+  width:30%;
+  margin:0 auto;
+}
+
+.indicator{
+  position:absolute;
+top:450px;
+}
+
+.indicator_1{
+  position:absolute;
+top:270px;
+}
+
+.indicator_2{
+position:absolute;
+top:290px;
+}
+
+.calculator, .apple, .stock, .quiz, .dictionary, .play, .pin {
+  transition:transform 0.1s;
+}
+
+.calculator:hover, .apple:hover, .stock:hover, .quiz:hover, .dictionary:hover, .play:hover, .pin:hover {
+  transform:scale(1.1);
+}
+
+.control-button{
+  position:absolute;
+  top:280px;
+}
+
+.control-button-1{
+  position:absolute;
+  top:110px;
+}
+
+.control-button-2{
+  position:absolute;
+  top:130px;
+}
+
+.navbar{
+  z-index:1;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  width: 100%;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler{
+  color:#3C3F7E;
+}
+
+.navbar-toggler:hover{
+  color:#5560A9;
+}
+
+
+@media only screen and (max-width: 576px) {
+  #hello{
+font-size:50px !important;
+position:relative;
+top:60px;
+  }
+  #front_end{
+    font-size:10px !important;
+    position:relative;
+    top:60px;
+  }
+
+  #title{
+background-size:cover;
+  }
+
+#academic{
+  height:550px;
+}
+
+#personality{
+    padding:40px 0 50px 0;
+}
+
+#skills{
+  padding:10px 0 20px 0;
+  height:530px;
+
+}
+
+#project{
+  height:500px;
+
+}
+
+
+#contact{
+  background-size: 100% 100%;
+}
+
+.person{
+  margin-top:15%;
+  margin-bottom:15%;
+}
+
+.indicator{
+  top:490px;
+}
+
+.academic-record{
+  padding:80px 0 100px 0;
+}
+
+.academic-record-description{
+  width:60%;
+}
+
+.skills-description{
+ width:80%;
+}
+
+.indicator_1{
+  top:330px;
+}
+
+.indicator_2{
+  top:365px;
+}
+
+.project-record-description{
+  width:50%;
+}
+
+}
+@media only screen and (min-width:576px) and (max-width: 768px) {
+  #hello{
+font-size:80px;
+position:relative;
+top:50px;
+  }
+  #front_end{
+    position:relative;
+    top:50px;
+  }
+  #title{
+background-size:cover;
+  }
+
+  #academic{
+    height:480px;
+  }
+
+  #personality{
+      padding:40px 0 50px 0;
+  }
+
+  #skills{
+    padding:10px 0 20px 0;
+    height:530px;
+
+  }
+
+  #project{
+    height:500px;
+
+  }
+
+  .person{
+    margin-top:15%;
+    margin-bottom:15%;
+  }
+
+  .indicator{
+    top:390px;
+  }
+
+  .academic-record{
+    padding:80px 0 100px 0;
+  }
+
+  .academic-record-description{
+    width:60%;
+  }
+
+  .skills-description{
+   width:80%;
+  }
+
+  .indicator_1{
+    top:280px;
+  }
+
+  .indicator_2{
+    top:315px;
+  }
+
+  .project-record-description{
+    width:50%;
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #hello{
+font-size:100px !important;
+position:relative;
+top:50px;
+  }
+  #front_end{
+    position:relative;
+    top:50px;
+  }
+
+  #title{
+background-size:cover;
+  }
+
+  #academic{
+    height:650px;
+  }
+
+  #personality{
+      padding:70px 0 100px 0;
+  }
+
+  #skills{
+    padding:10px 0 20px 0;
+    height:530px;
+
+  }
+
+  #project{
+    height:500px;
+
+  }
+
+  .person{
+    margin-top:15%;
+    margin-bottom:15%;
+  }
+
+  .indicator{
+    top:510px;
+  }
+
+  .academic-record-description{
+    width:60%;
+  }
+
+  .skills-description{
+   width:80%;
+  }
+
+  .indicator_1{
+    top:290px;
+  }
+
+  .indicator_2{
+    top:305px;
+  }
+
+  .project-record-description{
+    width:50%;
+  }
+
+}
