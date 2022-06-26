@@ -159,7 +159,7 @@ top:290px;
   transition:transform 0.1s;
 }
 
-.calculator:hover, .apple:hover, .stock:hover, .quiz:hover, .dictionary:hover, .play:hover, .pin:hover, .reading: hover {
+.calculator:hover, .apple:hover, .stock:hover, .quiz:hover, .dictionary:hover, .play:hover, .pin:hover, .reading:hover {
   transform:scale(1.1);
 }
 
